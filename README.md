@@ -1,2 +1,3 @@
-# go-iterator
-Rust like iterator implementation.
+# iterator
+
+An experimental implementation of Rust-like styled iterator.
