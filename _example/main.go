@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ngicks/iterator"
-	"github.com/ngicks/iterator/adapter"
+	"github.com/ngicks/go-iterator/iterator"
+	"github.com/ngicks/go-iterator/iterator/adapter"
 )
 
 func main() {

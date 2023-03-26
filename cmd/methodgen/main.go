@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ngicks/iterator/cmd/methodgen/helper"
+	"github.com/ngicks/go-iterator/cmd/methodgen/helper"
 )
 
 var (

@@ -1,4 +1,4 @@
-module github.com/ngicks/iterator
+module github.com/ngicks/go-iterator
 
 go 1.20
 
