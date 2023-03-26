@@ -26,7 +26,7 @@ func (i *IterReader[T]) Read(p []byte) (n int, err error) {
 		return 0, i.savedErr
 	}
 
-	if i.savedErr == nil && i.read.Len() < len(p) {
+	for i.savedErr == nil && i.read.Len() < len(p) {
 		next, ok := i.iter.Next()
 		if !ok {
 			i.savedErr = io.EOF
