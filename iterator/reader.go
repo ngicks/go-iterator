@@ -53,7 +53,7 @@ func (i *IterReader[T]) WriteTo(w io.Writer) (n int64, err error) {
 	}
 
 	const (
-		maxReadSize = 64 * 1024 * 1024
+		maxReadSize = 64 * 1024 // 64kib
 	)
 	var nn int64
 
